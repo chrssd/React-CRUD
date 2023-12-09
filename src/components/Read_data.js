@@ -14,11 +14,6 @@ export default function Read() {
     }, [])
 
     
-    localStorage.setItem('ID', "");
-    localStorage.setItem('First Name', "");
-    localStorage.setItem('Last Name', "");
-    localStorage.setItem('Checkbox Value', "")
-    
 
     const setData = (data) => {
         let { id, firstName, lastName, checkbox } = data;
